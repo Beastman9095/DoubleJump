@@ -1,0 +1,24 @@
+name: DoubleJump
+version: ${project.version}
+main: xyz.ham5teak.doublejump.DoubleJump
+softdepend: [ CMI ]
+authors: [ Beastman9095 ]
+description: Double jump plugin designed to work with CMI fly
+commands:
+  doublejump:
+    description: Manage double jump plugin.
+    permission: doublejump.command
+    aliases: [dj, djump, doublej]
+permissions:
+  doublejump.command.reload:
+    description: Reloads the plugin double jump.
+  doublejump.command.toggleflight:
+    description: Toggles CMI Flight on/off.
+  doublejump.command.togglejump:
+    description: Toggles doulbe jump on/off.
+  doublejump.command.set:
+    description: Sets values for the plugin.
+  doublejump.command.help:
+    description: Shows usage of the plugin
+  doublejump.command.current:
+    description: Shows current value of the plugin

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DoubleJump:jar">
+    <output-path>$PROJECT_DIR$/../../Servers/1.17/plugins</output-path>
+    <root id="archive" name="DoubleJump.jar">
+      <element id="module-output" name="DoubleJump" />
+    </root>
+  </artifact>
+</component>
